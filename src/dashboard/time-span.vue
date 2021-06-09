@@ -2,7 +2,7 @@
   <div class="vue-core-video-player-control timespan">
     <span class="time-current">{{currentTime}}</span>
     <span class="time-split"> / </span>
-    <span class="time-duration">{{duration}}</span>
+    <!-- <span class="time-duration">{{duration}}</span> Line causes livestreams to display durations of NaN. - ocano 6/9/21 -->
   </div>
 </template>
 
