@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="test-player-wrap">
-      <vue-core-video-player @play="playFunc" loop :src="source" title="《Your Name》OST Sparkle" :view-core="viewCore" autoplay></vue-core-video-player>
+      <vue-core-video-player @play="playFunc" loop :src="source" title="StreamPod Player" :view-core="viewCore" autoplay></vue-core-video-player>
     </div>
     <button @click="change"> Change Source</button>
   </div>
@@ -37,7 +37,7 @@ const videoSource = [
 //   }
 // ]
 
-const videoSource2 = 'https://media.vued.vanthink.cn/the_garden_of_words_trailer_english__1080p.mp4'
+const videoSource2 = 'https://ll-hls-test.apple.com/cmaf/master.m3u8' // Needs Secure Livestream
 
 const cover = 'https://img1.wxzxzj.com/maxresdefault.jpg'
 
