@@ -57,22 +57,5 @@ Vue.use(VueCoreVideoPlayer)
 + Development friendly
 + Mobile Adaptation
 
-### Who using it
 
-Welcome to submit your website using the package [Demo Case Collection](https://github.com/core-player/vue-core-video-player/issues/26)
-
-
-## UI
-
-<img width="720px" src="./UI/ui.png">
-
-[Adobe XD](./UI/vue-core-video-player-xd.xd)
-
-[Behance](https://www.behance.net/gallery/84820301/Web-VIdeo-Player)
-
-
-## 💐 Contributions
-
-+ Open pull request with improvements
-+ Discuss ideas in issues
 
