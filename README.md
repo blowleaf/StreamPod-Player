@@ -6,7 +6,7 @@
 
 <img width="180" src="./UI/assets/logo.png">
 
-A Dockerized Video Player For StreamPod.
+A Dockerized Video Player running on NGINX.
 
 
 ## Get Started
