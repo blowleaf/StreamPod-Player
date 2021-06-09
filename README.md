@@ -8,7 +8,7 @@
 
 <img width="180" src="./UI/assets/logo.png">
 
-Video Player For a StreamPod Deployment.
+A simple Video Player For StreamPod.
 
 
 ## Get Started
