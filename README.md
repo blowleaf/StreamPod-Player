@@ -8,7 +8,7 @@
 
 <img width="180" src="./UI/assets/logo.png">
 
-A simple Video Player For StreamPod.
+A Dockerized Video Player For StreamPod.
 
 
 ## Get Started
