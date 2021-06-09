@@ -1,4 +1,4 @@
-# vue-core-video-player
+# StreamPod Player
 
 [![CircleCI](https://circleci.com/gh/core-player/vue-core-video-player.svg?style=shield)](https://circleci.com/gh/core-player/vue-core-video-player)
 [![prs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/core-player/vue-core-video-player/pulls)
@@ -8,7 +8,7 @@
 
 <img width="180" src="./UI/assets/logo.png">
 
-A Lightweight Video Player For Vue.js.
+Video Player For a StreamPod Deployment.
 
 
 ## Get Started
