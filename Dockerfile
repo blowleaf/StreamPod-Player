@@ -1,7 +1,7 @@
 # stage1 as builder
 FROM node:10-alpine as builder
 
-WORKDIR /vue-ui
+WORKDIR /streampod_player
 
 # Copy the package.json and install dependencies
 COPY package*.json ./
@@ -19,8 +19,8 @@ COPY ./.nginx/nginx.conf /etc/nginx/nginx.conf
 ## Remove default nginx index page
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy from the stahg 1
-COPY --from=builder /vue-ui/dist /usr/share/nginx/html
+# Copy from the stage 1
+COPY --from=builder /streampod_player/dist /usr/share/nginx/html
 
 EXPOSE 80
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
