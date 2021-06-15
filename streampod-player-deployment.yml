@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streampod-player
+spec:
+  selector:
+    matchLabels:
+      run: streampod-player
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: streampod-player
+    spec:
+      containers:
+      - name: streampod-player-pod
+        image: 701273472782.dkr.ecr.us-east-1.amazonaws.com/ocano/streampod-player
+        ports:
+        - containerPort: 80
