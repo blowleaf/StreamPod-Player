@@ -10,3 +10,5 @@ kubectl expose deployment/streampod-player \
 
 # Get services
 kubectl get svc streampod-player-service
+
+## Simple Prototype Deployment - ocano 6/16/21

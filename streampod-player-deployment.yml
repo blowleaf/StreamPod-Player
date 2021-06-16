@@ -14,6 +14,9 @@ spec:
     spec:
       containers:
       - name: streampod-player-pod
-        image: 701273472782.dkr.ecr.us-east-1.amazonaws.com/ocano/streampod-player
+        image: ocano/streampod_player
         ports:
         - containerPort: 80
+
+## Simple Prototype Deployment - ocano 6/16/21
+## Supports ECR images.
