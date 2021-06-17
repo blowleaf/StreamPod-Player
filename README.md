@@ -4,6 +4,8 @@
 [![prs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/core-player/vue-core-video-player/pulls)
 [![npm version](https://img.shields.io/npm/v/vue-core-video-player.svg?style=flat-square)](https://www.npmjs.com/package/vue-core-video-player)
 
+<img src="./UI/assets/StreamPod_logo_transparent.png">
+
 A Dockerized Video Player running on NGINX, developed in Vue.
 
 ## Get Started
