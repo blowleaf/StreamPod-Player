@@ -54,6 +54,10 @@ Vue.use(VueCoreVideoPlayer)
 + Development friendly
 + Mobile Adaptation
 
+## More info
+
+ * **Docker Hub image**: <https://hub.docker.com/r/ocano/streampod_player>
+
 ## Credits
 
 Foked from Original GitHub repo by [蒲小花](https://github.com/JackPu): https://github.com/core-player/vue-core-video-player
