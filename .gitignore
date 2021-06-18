@@ -3,6 +3,3 @@ node_modules
 npm-debug.log
 dist
 .idea/
-streampod-player-cluster.yml
-streampod-player-deployment.yml
-deploy.sh
